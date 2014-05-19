@@ -7,7 +7,7 @@ mkdir .live-packs
 cd !$
 git clone https://github.com/thejohnnybrown/cljdev-pack
 cd
-ln -s ~/.live-packs/emacs-live.el ~/.emacs-live.el
+ln -s ~/.live-packs/cljdev-pack/emacs-live.el ~/.emacs-live.el
 
 git clone https://github.com/overtone/emacs-live.git
 ln -s ~/emacs-live ~/.emacs.d

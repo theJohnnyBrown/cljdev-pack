@@ -1,6 +1,17 @@
-## User Pack Template
+### Usage
 
-This is a template for your own user (or other purpose) pack.
+```bash
+
+cd
+mkdir .live-packs
+cd !$
+git clone https://github.com/thejohnnybrown/cljdev-pack
+cd
+ln -s ~/.live-packs/emacs-live.el ~/.emacs-live.el
+
+git clone https://github.com/overtone/emacs-live.git
+ln -s ~/emacs-live ~/.emacs.d
+```
 
 ### init.el
 
